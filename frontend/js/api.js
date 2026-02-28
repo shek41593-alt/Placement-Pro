@@ -1,5 +1,5 @@
 /* PlacementPro API Client */
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = window.location.origin + '/api';
 
 const api = {
     _getToken() { return localStorage.getItem('pp_token'); },
