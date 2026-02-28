@@ -1,0 +1,649 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Abhi",
+      "email": "shek41593@gmail.com",
+      "password": "$2a$12$EvTL09fqrPoP6VK.rDYKhe0e9N6SwWcZ1eJhVLx0tSKdH0oOC2tU2",
+      "role": "student",
+      "created_at": "2026-02-20T18:03:57.584Z",
+      "updated_at": "2026-02-28T18:06:42.010Z"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajesh Kumar",
+      "email": "tpo@college.edu",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGPMkOX.7Y5K2G3z1tQxJQJ9mFm",
+      "role": "tpo",
+      "created_at": "2026-02-28T09:41:53.134Z"
+    },
+    {
+      "id": 3,
+      "name": "anshul",
+      "email": "anshul2005@gmail.com",
+      "password": "$2a$12$mLc/im.qao18ZyZ62vqLo.T85rb0.hMBMpjydDyXLof4hS4yqcyUi",
+      "role": "student",
+      "created_at": "2026-02-28T11:16:21.142Z"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Gupta",
+      "email": "sneha@alumni.edu",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGPMkOX.7Y5K2G3z1tQxJQJ9mFm",
+      "role": "alumni",
+      "created_at": "2026-02-28T11:21:51.314Z"
+    },
+    {
+      "id": 5,
+      "name": "Arjun",
+      "email": "arjun@student.edu",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGPMkOX.7Y5K2G3z1tQxJQJ9mFm",
+      "role": "student",
+      "created_at": "2026-02-28T11:32:32.178Z",
+      "updated_at": "2026-02-28T11:34:52.894Z"
+    },
+    {
+      "id": 6,
+      "name": "Vikram Singh",
+      "email": "vikram@alumni.edu",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TiGPMkOX.7Y5K2G3z1tQxJQJ9mFm",
+      "role": "alumni",
+      "created_at": "2026-02-28T11:40:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "nithin",
+      "email": "nithin@gmail.com",
+      "password": "$2a$12$En0f1/iINnxygBdPEuZTrOt0pB5BNG7JRnew8xkONmnnr9tAxodHm",
+      "role": "alumni",
+      "created_at": "2026-02-28T17:24:36.086Z",
+      "updated_at": "2026-02-28T17:33:54.818Z"
+    },
+    {
+      "id": 8,
+      "name": "abhishek",
+      "email": "abhi@2005",
+      "password": "$2a$12$caYR56tGC0jQFqm6kRERrevMKd1vUbT97rNMqqVljr6rIMOCbn1cG",
+      "role": "tpo",
+      "created_at": "2026-02-28T17:37:20.607Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "branch": "CSE",
+      "cgpa": 7.9,
+      "backlogs": 0,
+      "passing_year": 2027,
+      "created_at": "2026-02-20T18:03:57.588Z",
+      "skills": [
+        "c",
+        "java",
+        "linux",
+        "Android",
+        "python",
+        "cloud"
+      ],
+      "bio": "Aspiring DevOps Engineering",
+      "linkedin": "https://www.linkedin.com/in/abhishek-k-4750822a5?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "github": "https://github.com/shek41593-alt",
+      "updated_at": "2026-02-28T18:06:42.017Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "bio": "Training & Placement Officer at NIT College",
+      "created_at": "2026-02-28T09:41:53.148Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "branch": "CSE",
+      "passing_year": "2027",
+      "created_at": "2026-02-28T11:16:21.145Z"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "company": "Google",
+      "graduation_year": 2022,
+      "bio": "Software Engineer at Google. Love helping students!",
+      "linkedin": "linkedin.com/in/snehagupta",
+      "created_at": "2026-02-28T11:21:51.315Z"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "branch": "CSE",
+      "cgpa": 8.5,
+      "backlogs": 0,
+      "passing_year": 2025,
+      "created_at": "2026-02-28T11:32:32.179Z",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "React",
+        "SQL"
+      ],
+      "bio": "Aspiring Full Stack Developer",
+      "updated_at": "2026-02-28T11:34:52.896Z"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "company": "Microsoft",
+      "graduation_year": 2021,
+      "bio": "Senior Developer at Microsoft.",
+      "linkedin": "linkedin.com/in/vikramsingh",
+      "created_at": "2026-02-28T11:40:00.000Z"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "company": "Infosys",
+      "graduation_year": 2025,
+      "created_at": "2026-02-28T17:24:36.093Z",
+      "bio": "Placement and training",
+      "linkedin": "",
+      "updated_at": "2026-02-28T17:33:54.820Z"
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "created_at": "2026-02-28T17:37:20.608Z"
+    }
+  ],
+  "drives": [
+    {
+      "id": 1,
+      "company_name": "Google India",
+      "job_role": "Software Engineer",
+      "job_description": "Work on large-scale distributed systems",
+      "package_lpa": 45,
+      "min_cgpa": 7.5,
+      "max_backlogs": 0,
+      "allowed_branches": [
+        "Computer Science",
+        "Information Technology"
+      ],
+      "required_skills": [
+        "Python",
+        "DSA",
+        "System Design",
+        "SQL"
+      ],
+      "drive_date": "2026-03-15",
+      "location": "Mumbai Campus",
+      "created_at": "2026-02-28T11:20:03.177Z"
+    },
+    {
+      "id": 2,
+      "company_name": "TCS",
+      "job_role": "Systems Engineer",
+      "job_description": "Enterprise software solutions",
+      "package_lpa": 7.5,
+      "min_cgpa": 6,
+      "max_backlogs": 2,
+      "allowed_branches": [
+        "Computer Science",
+        "Electronics"
+      ],
+      "required_skills": [
+        "Java",
+        "SQL",
+        "OOP"
+      ],
+      "drive_date": "2026-03-10",
+      "location": "Pune Campus",
+      "created_at": "2026-02-28T11:25:00.000Z"
+    },
+    {
+      "id": 3,
+      "company_name": "Amazon",
+      "job_role": "Cloud Engineer",
+      "job_description": "able to do E2 and S3 and all",
+      "package_lpa": 10,
+      "min_cgpa": 8,
+      "max_backlogs": 0,
+      "allowed_branches": [
+        "CSE",
+        "AI/ML",
+        "DS"
+      ],
+      "required_skills": [
+        "programming in c",
+        "c++",
+        "java",
+        "iot",
+        "cloud"
+      ],
+      "drive_date": "2026-03-01",
+      "rounds": [],
+      "created_by": 8,
+      "created_at": "2026-02-28T17:48:56.079Z"
+    },
+    {
+      "id": 4,
+      "company_name": "Canara",
+      "job_role": "trainee",
+      "job_description": "trainee",
+      "package_lpa": 5,
+      "min_cgpa": 7,
+      "max_backlogs": 0,
+      "allowed_branches": [
+        "CSE"
+      ],
+      "passing_year": null,
+      "required_skills": [
+        "c",
+        "java"
+      ],
+      "drive_date": "2026-03-02",
+      "location": null,
+      "rounds": [],
+      "created_by": 8,
+      "created_at": "2026-02-28T19:05:19.431Z"
+    }
+  ],
+  "alumni_posts": [
+    {
+      "id": 1,
+      "alumni_id": 4,
+      "title": "Google SWE Referral - 2025 Batch",
+      "description": "I can refer strong candidates for SWE roles at Google.",
+      "company": "Google",
+      "job_role": "Software Engineer",
+      "skills_required": [
+        "DSA",
+        "System Design",
+        "Python"
+      ],
+      "apply_link": "https://careers.google.com",
+      "is_active": true,
+      "created_at": "2026-02-28T11:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "alumni_id": 6,
+      "title": "Microsoft Azure Internship",
+      "description": "Azure team has openings for freshers.",
+      "company": "Microsoft",
+      "job_role": "Cloud Engineer",
+      "skills_required": [
+        "Azure",
+        "C#",
+        "Python"
+      ],
+      "apply_link": "https://careers.microsoft.com",
+      "is_active": true,
+      "created_at": "2026-02-28T11:35:00.000Z"
+    }
+  ],
+  "mentorship_bookings": [
+    {
+      "id": 1,
+      "alumni_id": 4,
+      "slot_date": "2026-03-05T10:00:00.000Z",
+      "duration_minutes": 60,
+      "topic": "Resume Review",
+      "status": "Available",
+      "created_at": "2026-02-28T11:22:24.027Z"
+    },
+    {
+      "id": 2,
+      "alumni_id": 7,
+      "slot_date": "2026-03-01T23:05",
+      "duration_minutes": 60,
+      "topic": "placement",
+      "created_at": "2026-02-28T17:35:52.122Z"
+    }
+  ],
+  "applications": [],
+  "interviews": [],
+  "notifications": [
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.670Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.671Z"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.672Z"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.673Z"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.674Z"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.675Z"
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "type": "alert",
+      "created_at": "2026-02-28T17:38:17.677Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.081Z",
+      "updated_at": "2026-02-28T19:06:35.053Z"
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.083Z"
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.084Z"
+    },
+    {
+      "id": 12,
+      "user_id": 4,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.085Z"
+    },
+    {
+      "id": 13,
+      "user_id": 5,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.087Z"
+    },
+    {
+      "id": 14,
+      "user_id": 6,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.088Z"
+    },
+    {
+      "id": 15,
+      "user_id": 7,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.089Z"
+    },
+    {
+      "id": 16,
+      "user_id": 8,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:56.090Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.868Z"
+    },
+    {
+      "id": 18,
+      "user_id": 2,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.869Z"
+    },
+    {
+      "id": 19,
+      "user_id": 3,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.870Z"
+    },
+    {
+      "id": 20,
+      "user_id": 4,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.871Z"
+    },
+    {
+      "id": 21,
+      "user_id": 5,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.872Z"
+    },
+    {
+      "id": 22,
+      "user_id": 6,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.873Z"
+    },
+    {
+      "id": 23,
+      "user_id": 7,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.875Z"
+    },
+    {
+      "id": 24,
+      "user_id": 8,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:48:59.876Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.153Z"
+    },
+    {
+      "id": 26,
+      "user_id": 2,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.155Z"
+    },
+    {
+      "id": 27,
+      "user_id": 3,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.156Z"
+    },
+    {
+      "id": 28,
+      "user_id": 4,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.157Z"
+    },
+    {
+      "id": 29,
+      "user_id": 5,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.158Z"
+    },
+    {
+      "id": 30,
+      "user_id": 6,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.160Z"
+    },
+    {
+      "id": 31,
+      "user_id": 7,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.161Z"
+    },
+    {
+      "id": 32,
+      "user_id": 8,
+      "title": "New Drive: Amazon",
+      "message": "Amazon is hiring for Cloud Engineer. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T17:49:06.163Z"
+    },
+    {
+      "id": 33,
+      "user_id": 1,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:19.434Z"
+    },
+    {
+      "id": 34,
+      "user_id": 3,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:19.435Z"
+    },
+    {
+      "id": 35,
+      "user_id": 5,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:19.437Z"
+    },
+    {
+      "id": 36,
+      "user_id": 1,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:24.192Z"
+    },
+    {
+      "id": 37,
+      "user_id": 3,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:24.194Z"
+    },
+    {
+      "id": 38,
+      "user_id": 5,
+      "title": "New Drive: Canara",
+      "message": "Canara is hiring for trainee. Check your eligible drives now!",
+      "type": "drive",
+      "created_at": "2026-02-28T19:05:24.195Z"
+    }
+  ],
+  "faq_entries": [],
+  "chat_logs": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "message": "about placement",
+      "response": "I'm not sure I understand that query. Try asking about: drives, CGPA cutoff, interview schedule, resume, skill gap, or how to apply. You can also contact the TPO directly.",
+      "escalated": false,
+      "created_at": "2026-02-28T19:06:53.250Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "message": "cgpa cuttoff",
+      "response": "Current active drive CGPA cutoffs: Google India: 7.5, TCS: 6, Amazon: 8, Canara: 7",
+      "escalated": false,
+      "created_at": "2026-02-28T19:07:04.623Z"
+    }
+  ],
+  "resume_versions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "filename": "resume_1_1772302470375.pdf",
+      "file_path": "C:\\Users\\User\\Downloads\\projocr\\placementpro\\backend\\uploads\\resumes\\resume_1_1772302470375.pdf",
+      "created_at": "2026-02-28T18:14:30.529Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "filename": "resume_1_1772305260711.pdf",
+      "file_path": "C:\\Users\\User\\Downloads\\projocr\\placementpro\\backend\\uploads\\resumes\\resume_1_1772305260711.pdf",
+      "created_at": "2026-02-28T19:01:00.765Z"
+    }
+  ],
+  "broadcasts": [
+    {
+      "id": 1,
+      "title": "drive postponed",
+      "message": "due to this reason cant able to conduct",
+      "target_role": "student",
+      "created_at": "2026-02-28T17:38:17.679Z"
+    }
+  ]
+}
